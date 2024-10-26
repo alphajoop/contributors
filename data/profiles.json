@@ -10,7 +10,18 @@
   {
     "name": "Souleymane DIALLO",
     "bio": "Software Engineer, an IT enthusiaste passionate about software engineering and open-source.",
-    "skills": ["JavaScript", "NodeJS", "Python", "React"],
+    "skills": [
+              "NodeJS", 
+              "JavaScript", 
+              "TypeScript", 
+              "Express.js", 
+              "React.js", 
+              "MySQL", 
+              "MongoDB", 
+              "Oracle",
+              "Linux", 
+              "Docker"
+            ],
     "github": "https://github.com/diallosouleymane",
     "image": "https://avatars.githubusercontent.com/u/102539941?v=4"
   }
