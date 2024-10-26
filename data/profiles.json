@@ -13,5 +13,13 @@
     "github": "https://github.com/devdiop221",
     "image": "https://avatars.githubusercontent.com/u/64200833?v=4"
 
+  },
+  {
+    "name": "Salif Diallo",
+    "bio": "Je suis un passionné du Foot et de l'Informatique",
+    "skills": ["PHP", "JavaScript","Java"],
+    "github": "https://github.com/devdiop221",
+    "image": "https://avatars.githubusercontent.com/u/177202456?s=400&u=8314d16261fe14b078e27648d5465623dcb1bd01&v=4"
+
   }
 ]
