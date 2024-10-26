@@ -1,5 +1,19 @@
 [
   {
+    "name": "Daouda BA",
+    "bio": "Full Stack Developer passionate about open-source.",
+    "skills": ["JavaScript", "Flutter"],
+    "github": "https://github.com/daoodaba975",
+    "image": "https://avatars.githubusercontent.com/u/46088908?v=4"
+  },
+  {
+    "name": "Mouhamed Diop",
+    "bio": "I'm a passionate Full Stack Developer from Senegal.",
+    "skills": ["JavaScript", "Typescript"],
+    "github": "https://github.com/devdiop221",
+    "image": "https://avatars.githubusercontent.com/u/64200833?v=4"
+  },
+  {
     "name": "Ben Basse",
     "bio": "Full Stack Developer, Testeur QA, Hacking enthousiast and DevOps.",
     "skills": [
@@ -18,5 +32,5 @@
     ],
     "github": "https://github.com/benbasse",
     "image": "https://avatars.githubusercontent.com/u/132558180?v=4"
-  }
+  },
 ]
