@@ -106,5 +106,12 @@
       "skills": ["JavaScript", "Python", "ReactJs", "React Native", "Expo", "Wordpress", "Firebase"],
       "github": "https://github.com/bmaxtar",
       "image": "https://avatars.githubusercontent.com/u/57157288?v=4"
-  }
+  },
+  {
+    "name": "Mahmoud BARRY",
+    "bio": "I'm a passionate Full Stack Developer from Senegal.",
+    "skills": ["JavaScript", "Typescript", "Dart", "Python"],
+    "github": "https://github.com/Mahmoud-Barry/",
+    "image": "https://avatars.githubusercontent.com/u/60197368?v=4"
+  },
 ]
