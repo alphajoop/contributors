@@ -78,5 +78,12 @@
     "skills": ["Laravel", "Angular"],
     "github": "https://github.com/DialloMaria",
     "image": "https://avatars.githubusercontent.com/u/154343063?v=4"
+  },
+  {
+    "name": "Mouhamedoune Fall",
+    "bio": "Full Stack Web and Mobile Developer, AI Enthusiast.",
+    "skills": ["Php","JavaScript","TypeScript","Flutter","C"],
+    "github": "https://github.com/pape-medoune",
+    "image": "https://avatars.githubusercontent.com/u/80828135?v=4" 
   }
 ]
