@@ -92,5 +92,12 @@
     "skills": ["Php","JavaScript","TypeScript","Flutter","C"],
     "github": "https://github.com/pape-medoune",
     "image": "https://avatars.githubusercontent.com/u/80828135?v=4" 
+  },
+  {
+    "name": "Alpha DIOP",
+    "bio": "I am a digital enthusiast based in Senegal 🇸🇳. Challenges are what I am passionate about 🐛.",
+    "skills": ["JavaScript", "TypeScript"],
+    "github": "https://github.com/alphajoop",
+    "image": "https://avatars.githubusercontent.com/u/90140491?v=4&size=64"
   }
 ]
