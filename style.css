@@ -1,10 +1,9 @@
 /* Définition des couleurs et polices de base */
 :root {
-  --primary-color: #007acc;
-  --background-color: #f0f2f5;
+  --primary-color: #0069cc;
+  --text-light: #fff;
   --text-color: #2d2d2d;
   --text-color-light: #666;
-  --card-bg-color: #fff;
 }
 
 /* Styles global */
@@ -21,11 +20,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--background-color);
+  background-color: var(--text-light);
   color: var(--text-color);
   opacity: 0;
   transform: translateY(40px);
   animation: fadeIn 0.5s ease forwards;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 header {
@@ -34,7 +37,7 @@ header {
 }
 
 h1 {
-  color: var(--text-color);
+  color: var(--text-light);
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
@@ -54,7 +57,7 @@ h1 {
   height: 350px;
   border-radius: 12px;
   overflow: hidden;
-  background-color: var(--card-bg-color);
+  background-color: var(--text-light);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
@@ -110,7 +113,7 @@ h1 {
   margin: 10px 0;
   padding: 8px 15px;
   font-size: 0.9em;
-  color: #fff;
+  color: var(--text-light);
   background-color: var(--primary-color);
   border-radius: 8px;
   text-decoration: none;
@@ -121,8 +124,8 @@ h1 {
 }
 
 .profile-card a:hover {
-  background-color: #005fa3;
-  color: #ffffff;
+  opacity: 0.9;
+  color: var(--text-light);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -141,7 +144,7 @@ h1 {
 .pagination-button {
   padding: 10px 15px;
   border: none;
-  background-color: var(--background-color);
+  background-color: var(--text-light);
   color: var(--primary-color);
   cursor: pointer;
   margin: 0 5px;
@@ -151,16 +154,22 @@ h1 {
 
 .pagination-button.active {
   background-color: var(--primary-color);
-  color: var(--card-bg-color);
+  color: var(--text-light);
 }
 
 .pagination-button:hover:not(.active) {
-  background-color: var(--background-color);
+  background-color: var(--text-light);
 }
 
 @keyframes fadeIn {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-position: left center;
   }
 }
