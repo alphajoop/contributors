@@ -1,3 +1,19 @@
+/* Définition des couleurs et polices de base */
+:root {
+  --primary-color: #007acc;
+  --background-color: #f0f2f5;
+  --text-color: #2d2d2d;
+  --text-color-light: #666;
+  --card-bg-color: #fff;
+}
+
+/* Styles global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Styles de base */
 body {
   font-family: Arial, sans-serif;
@@ -5,8 +21,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0;
-  background-color: #f0f2f5;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeIn 0.5s ease forwards;
 }
 
 header {
@@ -15,7 +34,7 @@ header {
 }
 
 h1 {
-  color: #333;
+  color: var(--text-color);
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
@@ -35,16 +54,17 @@ h1 {
   height: 350px;
   border-radius: 12px;
   overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: var(--card-bg-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
 }
 
 .profile-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Image de profil */
 .profile-card img {
@@ -52,19 +72,19 @@ h1 {
   height: 100px;
   border-radius: 50%;
   margin-top: 15px;
-  border: 3px solid #007acc;
-  
+  border: 3px solid var(--primary-color);
 }
 
 /* Informations du profil */
 .profile-card h3 {
-  color: #007acc;
+  color: var(--primary-color);
   margin: 10px 0 5px;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .profile-card p {
-  color: #666;
+  color: var(--text-color-light);
   font-size: 0.9em;
   margin: 0 15px;
   min-height: 50px;
@@ -74,11 +94,11 @@ h1 {
 .profile-card .skills {
   display: inline-block;
   font-size: 0.9em;
-  color: #333;
+  color: var(--text-color);
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 5px;
-  background-color: #f7f9fc;
+
   border-radius: 5px;
   /* min-height: 50px; */
   min-height: 50px;
@@ -86,17 +106,61 @@ h1 {
 
 /* Lien GitHub */
 .profile-card a {
-  display: inline-block;
+  display: inline-flex;
   margin: 10px 0;
   padding: 8px 15px;
   font-size: 0.9em;
   color: #fff;
-  background-color: #007acc;
+  background-color: var(--primary-color);
   border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.2s;
+  transition: background-color 0.3s;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.3s, box-shadow 0.3s;
 }
 
 .profile-card a:hover {
   background-color: #005fa3;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.profile-card a i {
+  font-size: 1.2em;
+}
+
+/* Pagination */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+  border: solid 1px var(--primary-color);
+}
+
+.pagination-button.active {
+  background-color: var(--primary-color);
+  color: var(--card-bg-color);
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: var(--background-color);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
