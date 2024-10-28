@@ -135,4 +135,18 @@
     "github": "https://github.com/Bakemono-san",
     "image": "https://avatars.githubusercontent.com/u/82776147?v=4"
   },
+  {
+    "name": "Mamadou Sarr",
+    "bio": "I'm FullStack Developer from Senegal.",
+    "skills": ["JavaScript", "Typescript", "Python", "JAVA"],
+    "github": "https://github.com/mouhamed1296",
+    "image": "https://avatars.githubusercontent.com/u/60544454?v=4"
+  },
+  {
+    "name": "Joseph aka Plynthiou",
+    "bio": "I am a developer confortable with PHP, Symfony, HTML, CSS and slightly know about Flutter.",
+    "skills": ["JavaScript", "Flutter"],
+    "github": "https://github.com/joe-pierre",
+    "image": "https://avatars.githubusercontent.com/u/72039609?v=4"
+  },
 ]
