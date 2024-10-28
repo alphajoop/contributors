@@ -163,4 +163,11 @@
     "github": "https://github.com/Seegah",
     "image": "/assets/seegah.jpg "
   },
+  {
+    "name": "Abhijit",
+    "bio": "Full Stack Developer, open source enthusiast, loves to contribute to open source projects.",
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB","Express"],
+    "github": "https://github.com/Abhi8756",
+    "image": "https://avatars.githubusercontent.com/u/140577178?v=4"
+  },
 ]
