@@ -8,19 +8,8 @@
   },
   {
     "name": "Souleymane DIALLO",
-    "bio": "Software Engineer, an IT enthusiaste passionate about software engineering and open-source.",
-    "skills": [
-      "NodeJS",
-      "JavaScript",
-      "TypeScript",
-      "Express.js",
-      "React.js",
-      "MySQL",
-      "MongoDB",
-      "Oracle",
-      "Linux",
-      "Docker"
-    ],
+    "bio": "Software Engineer, an IT enthusiaste.",
+    "skills": ["JavaScript", "TypeScript", "React.js", "MySQL", "Docker"],
     "github": "https://github.com/diallosouleymane",
     "image": "https://avatars.githubusercontent.com/u/102539941?v=4"
   },
@@ -82,16 +71,16 @@
   {
     "name": "Salem Malick MOHAMED",
     "bio": "I'm a Full Stack Developer and web design lover",
-    "skills": ["Angular", "Ionic", "Figma","Laravel"],
+    "skills": ["Angular", "Ionic", "Figma", "Laravel"],
     "github": "https://github.com/saloum45",
     "image": "https://avatars.githubusercontent.com/u/64892800?s=400&u=a9441957133ff4d4ef9a23384d9b2cba8d3441e8&v=4"
   },
   {
     "name": "Mouhamedoune Fall",
     "bio": "Full Stack Web and Mobile Developer, AI Enthusiast.",
-    "skills": ["Php","JavaScript","TypeScript","Flutter","C"],
+    "skills": ["Php", "JavaScript", "TypeScript", "Flutter", "C"],
     "github": "https://github.com/pape-medoune",
-    "image": "https://avatars.githubusercontent.com/u/80828135?v=4" 
+    "image": "https://avatars.githubusercontent.com/u/80828135?v=4"
   },
   {
     "name": "Alpha DIOP",
@@ -101,11 +90,19 @@
     "image": "https://avatars.githubusercontent.com/u/90140491?v=4&size=64"
   },
   {
-     "name": "Moctar Mamadou BA",
-      "bio": "\uD83D\uDFE9 Javascript Developer - Front-End - React Native - Expo \uD83D\uDCF1|| React Developer \uD83C\uDF10.",
-      "skills": ["JavaScript", "Python", "ReactJs", "React Native", "Expo", "Wordpress", "Firebase"],
-      "github": "https://github.com/bmaxtar",
-      "image": "https://avatars.githubusercontent.com/u/57157288?v=4"
+    "name": "Moctar Mamadou BA",
+    "bio": "\uD83D\uDFE9 Javascript Developer - Front-End - React Native - Expo \uD83D\uDCF1|| React Developer \uD83C\uDF10.",
+    "skills": [
+      "JavaScript",
+      "Python",
+      "ReactJs",
+      "React Native",
+      "Expo",
+      "Wordpress",
+      "Firebase"
+    ],
+    "github": "https://github.com/bmaxtar",
+    "image": "https://avatars.githubusercontent.com/u/57157288?v=4"
   },
   {
     "name": "Mahmoud BARRY",
@@ -124,10 +121,10 @@
   {
     "name": "Asse Badiane",
     "bio": "Full Stack Developer passionate about open-source and Programmation.",
-    "skills": ["JavaScript", "Python", "Java","Flutter"],
+    "skills": ["JavaScript", "Python", "Java", "Flutter"],
     "github": "https://github.com/asseBadiane",
     "image": "https://avatars.githubusercontent.com/u/91501790?v=4"
-   },
+  },
   {
     "name": "Mouhamadou Moustapha Diagne",
     "bio": "I'm a passionate Full Stack Developer from Senegal.",
@@ -161,28 +158,27 @@
     "bio": "Full Stack Developer at Zone01 Dakar.",
     "skills": ["Go", "JavaScript", "Rust"],
     "github": "https://github.com/Seegah",
-    "image": "/assets/seegah.jpg "
+    "image": "https://avatars.githubusercontent.com/u/96544622?v=4"
   },
   {
     "name": "Abhijit",
     "bio": "Full Stack Developer, open source enthusiast, loves to contribute to open source projects.",
-    "skills": ["JavaScript", "React", "Node.js", "MongoDB","Express"],
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB", "Express"],
     "github": "https://github.com/Abhi8756",
     "image": "https://avatars.githubusercontent.com/u/140577178?v=4"
   },
   {
     "name": "Elimane GNING",
     "bio": " Full Stack Developer junior from Senegal.",
-    "skills": ["JavaScript", "Typescript","laravel"],
+    "skills": ["JavaScript", "Typescript", "laravel"],
     "github": "https://github.com",
     "image": "https://avatars.githubusercontent.com/u/162431334?v=4"
   },
   {
     "name": "Salif Diallo",
     "bio": "Je suis un passionné du Foot et de l'Informatique",
-    "skills": ["PHP", "JavaScript","Java"],
+    "skills": ["PHP", "JavaScript", "Java"],
     "github": "https://github.com/devdiop221",
     "image": "https://avatars.githubusercontent.com/u/177202456?s=400&u=8314d16261fe14b078e27648d5465623dcb1bd01&v=4"
-
   }
 ]
