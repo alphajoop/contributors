@@ -149,4 +149,11 @@
     "github": "https://github.com/joe-pierre",
     "image": "https://avatars.githubusercontent.com/u/72039609?v=4"
   },
+  {
+    "name": "KariSims",
+    "bio": "I'm a passionate Back-End Developer and Data science from DRC.",
+    "skills": ["Python", "JavaScript", "R"],
+    "github": "https://github.com/KariSims",
+    "image": "https://avatars.githubusercontent.com/u/64200833?v=4"
+  },
 ]
