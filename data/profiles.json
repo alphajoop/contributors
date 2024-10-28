@@ -128,4 +128,11 @@
     "github": "https://github.com/asseBadiane",
     "image": "https://avatars.githubusercontent.com/u/91501790?v=4"
    },
+  {
+    "name": "Mouhamadou Moustapha Diagne",
+    "bio": "I'm a passionate Full Stack Developer from Senegal.",
+    "skills": ["Java", "Typescript"],
+    "github": "https://github.com/Bakemono-san",
+    "image": "https://avatars.githubusercontent.com/u/82776147?v=4"
+  },
 ]
