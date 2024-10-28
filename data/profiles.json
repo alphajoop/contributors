@@ -180,5 +180,12 @@
     "skills": ["PHP", "JavaScript", "Java"],
     "github": "https://github.com/devdiop221",
     "image": "https://avatars.githubusercontent.com/u/177202456?s=400&u=8314d16261fe14b078e27648d5465623dcb1bd01&v=4"
+  },
+  {
+    "name": "Babacar Nguirane",
+    "bio": "Front-end dev && UI designer ",
+    "skills": ["JavaScript", "Angular"],
+    "github": "https://github.com/babs990",
+    "image": "https://avatars.githubusercontent.com/u/159585143?v=4"
   }
 ]
